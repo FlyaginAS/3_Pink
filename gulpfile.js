@@ -85,7 +85,7 @@ gulp.task('sprite-svg', function () {
             inlineSvg: true
         }))
         .pipe(rename('sprite.svg'))
-        .pipe(gulp.dest('build/resources/img/sprite'));
+        .pipe(gulp.dest('dev/resources/img/img-opt/sprite'));
 });
 
 //SPRITE PNG*******************************************************************************
@@ -98,7 +98,7 @@ gulp.task('sprite-png', function () {
                 cssName: 'sprite.css'
             }
         ))
-        .pipe(gulp.dest('build/resources/img/sprite'))
+        .pipe(gulp.dest('dev/resources/img/img-opt/sprite'))
 });
 
 //WEBP***********************************************************************************
@@ -135,7 +135,7 @@ gulp.task('serve', function () {
 });
 
 //BUILD************************************************************************************
-gulp.task('build', gulp.series('clean', 'copy', 'css-min', 'sprite-svg','html'));
+gulp.task('build', gulp.series('sprite-svg','clean', 'copy', 'css-min', 'html'));
 
 //START***********************************************************************************
 gulp.task('start', gulp.series('build','serve'));
