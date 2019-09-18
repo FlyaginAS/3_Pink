@@ -1,9 +1,14 @@
 .price{
-position:relative;
+//position:relative;
+  padding-top:130px;
+  overflow: hidden;
+  min-height: 475px;
+  background:no-repeat top center url("../resources/img/img-opt/index/mobile/info-back-mob.svg");
 }
 .price__table{
-  position:absolute;
+  margin-bottom:40px;
   width:1110px;
+  transform: translateX(-530px);
   background-color:#e5e5e5;
   border-spacing: 2px;
   thead{
@@ -35,7 +40,7 @@ position:relative;
   tbody{
     tr{
       td{
-
+          padding:0 20px;
           width:276px;
         height: 60px;
         //padding:2px;
@@ -46,7 +51,8 @@ position:relative;
 
         }
         svg{
-
+          float: right;
+          margin-top:20px;
         }
       }
     }
@@ -58,6 +64,41 @@ position:relative;
 .no{
   fill:#f25b26;
 }
-.price__wrap{
 
+/*buttons slider*/
+.price__wrap{
+  width:90px;
+  margin:0 auto;
+  margin-bottom:50px;
+  display:flex;
+  justify-content: space-evenly;
+}
+.price__label{
+
+}
+.price__input{
+
+}
+
+.price__span{
+  display:block;
+  width:15px;
+  height: 15px;
+  border:3px solid #f2f2f2;
+  border-radius: 50%;
+  background-color:#bec2c7;
+}
+.price__input:focus+span{
+  background-color:#7e868f;
+}
+.price__input:checked+span{
+  border:3px solid #283645;
+  background-color:white;
+}
+.price__input:hover+span{
+  background-color:#7e868f;
+}
+.price__input:active+span{
+  border:3px solid #283645;
+  background-color:white;
 }
