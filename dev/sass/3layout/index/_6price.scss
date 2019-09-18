@@ -1,0 +1,63 @@
+.price{
+position:relative;
+}
+.price__table{
+  position:absolute;
+  width:1110px;
+  background-color:#e5e5e5;
+  border-spacing: 2px;
+  thead{
+    tr{
+      th{
+        width:276px;
+        height: 100px;
+        color:white;
+        background-color:#283645;
+        text-transform: uppercase;
+        font:24px/30px open_sans, sans-serif;
+        font-weight: normal;
+        span{
+          font: 18px/30px open_sans, sans-serif;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+.standart{
+  position: relative;
+    &:before{
+      position: absolute;
+      top:-3px;
+      left:-3px;
+      content: url("../resources/img/img-opt/index/mobile/hit.png");
+    }
+}
+  tbody{
+    tr{
+      td{
+
+          width:276px;
+        height: 60px;
+        //padding:2px;
+        background-color:white;
+        font: 14px/60px  open_sans, sans-serif;
+        text-transform: uppercase;
+        span{
+
+        }
+        svg{
+
+        }
+      }
+    }
+  }
+}
+.yes{
+  fill:#3dc644;
+}
+.no{
+  fill:#f25b26;
+}
+.price__wrap{
+
+}
