@@ -144,3 +144,79 @@
   text-align: center;
   padding-bottom:35px;
 }
+/*tablet****************************************************************************************/
+@media all and (min-width: 660px) {
+  .page-header{
+    width:660px;
+    min-height: 945px;
+    //padding-bottom: 620px;
+    background:
+            bottom 0px center no-repeat url("../resources/img/img-opt/index/tablet/iphone-hand-tabl.png"),
+            bottom 0px left no-repeat url("../resources/img/img-opt/index/tablet/header-back-tablet.jpg");
+    background-color: #283645;
+    margin-bottom:50px;
+  }
+  .header-logo{
+
+  }
+  .header-logo__img{
+
+  }
+  .menu{
+  }
+  .menu__toggle{
+  }
+  .menu__toggle-svg{
+  }
+  .menu__list{
+
+  }
+  .menu__item{
+
+  }
+  .menu__link{
+  }
+  .download{
+    margin:0;
+    margin-top:60px;
+    background:none;
+    width:300px;
+
+  }
+  .download__title{
+    margin:0 auto;
+    margin-bottom:30px;
+    display: inherit;
+    width:190px;
+    font:40px/1.4 open_sans, sans-serif;
+    text-align: center;
+  }
+  .download__itunes{
+  }
+  .download__list{
+  }
+  .download__item{
+
+  }
+  .download__link{
+
+
+    span{
+    }
+    svg{
+
+    }
+  }
+  .download__apple{
+    svg{
+    }
+  }
+  .download__android{
+
+  }
+  .download__widows{
+
+  }
+  .download__description{
+  }
+}

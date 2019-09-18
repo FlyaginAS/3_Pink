@@ -57,3 +57,76 @@
   text-align: center;
   margin-bottom:30px;
 }
+/*tablet***********************************************************************************/
+@media all and (min-width: 660px) {
+  .information{
+    min-height:725px;
+    background:
+            no-repeat bottom -70px left 20px url("../resources/img/img-opt/index/tablet/iphone-hello-tabl.png"),
+            no-repeat bottom -270px  center url("../resources/img/img-opt/index/mobile/info-back-mob.svg");
+  }
+  .information__quest{
+    font:40px/1.2 open_sans, sans-serif;
+    //width:590px;
+    margin: 0 auto;
+  }
+  .information__ans{
+    font:40px/1.2 open_sans, sans-serif;
+    width:340px;
+    margin:0 auto;
+  }
+  .information__list{
+    width:310px;
+    float:right;
+    margin-top:70px;
+  }
+  .information__item{
+
+  }
+  .information__iphone{
+  }
+  .information__iphone--mood{
+
+  }
+  .information__iphone--world{
+
+  }
+  .information__iphone--friends{
+
+  }
+  .information__h3{
+    text-align: left;
+  }
+  .information__description{
+    text-align: left;
+  }
+}
+/*desktop***********************************************************************************/
+@media all and (min-width: 1200px) {
+  .information{
+  }
+  .information__quest{
+  }
+  .information__ans{
+  }
+  .information__list{
+  }
+  .information__item{
+
+  }
+  .information__iphone{
+  }
+  .information__iphone--mood{
+
+  }
+  .information__iphone--world{
+
+  }
+  .information__iphone--friends{
+
+  }
+  .information__h3{
+  }
+  .information__description{
+  }
+}
