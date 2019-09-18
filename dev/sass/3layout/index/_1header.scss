@@ -1,0 +1,130 @@
+.page-header{
+  width:320px;
+  margin:0 auto;
+  background-color:#283645;
+  font: 18px/18px open_sans, sans-serif;
+  color:white;
+}
+.header-logo{
+  min-height: 70px;
+  border-bottom: 1px solid #000000;
+  padding-left:20px;
+  padding-top:20px;
+}
+.header-logo__img{
+  fill:white;
+  cursor:pointer;
+  &:hover{
+    fill:#d22856;
+  }
+  &:active{
+    fill:#f1becc;
+  }
+}
+.menu{
+  position: relative;
+}
+.menu__toggle{
+  position:absolute;
+  top:-50px;
+  right:15px;
+  border:none;
+  background:none;
+  cursor: pointer;
+}
+.menu__toggle-svg{
+  fill:white;
+  &:hover{
+    fill:#d22856;
+  }
+  &:active{
+    fill:#f1becc;
+  }
+}
+.menu__list{
+  margin:0;
+  padding:0;
+  list-style: none;
+
+}
+.menu__item{
+  border-bottom:1px solid black;
+  border-top:1px solid #485461;
+
+}
+.menu__link{
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  min-height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover{
+    color:#d22856;
+  }
+  &:active{
+    color:#6a757f;
+  }
+}
+.download{
+  margin-top: 396px;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top:28px;
+  background-color:#1d2631;
+}
+.download__title{
+  display:none;
+}
+.download__itunes{
+  margin-bottom:32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 55px;
+  width:280px;
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+  border:3px solid white;
+  border-radius:27px;
+  &:hover{
+    background-color:white;
+    border:none;
+    color:#d22856;
+  }
+  &:active{
+    color:#f1becc;
+  }
+}
+.download__list{
+
+}
+.download__item{
+
+}
+.download__link{
+  color:white;
+
+  text
+  span{
+
+  }
+  svg{
+
+  }
+}
+.download__apple{
+
+}
+.download__android{
+
+}
+.download__widows{
+
+}
+.download__description{
+
+}
