@@ -1,9 +1,14 @@
 .page-header{
   width:320px;
   margin:0 auto;
-  background-color:#283645;
+  //background-color:#283645;
   font: 18px/18px open_sans, sans-serif;
   color:white;
+
+  background:
+  bottom 250px center no-repeat url("../resources/img/img-opt/index/mobile/iphone-in-hand.png"),
+  bottom 280px left no-repeat url("../resources/img/img-opt/index/mobile/back-mobile@1x.jpg");
+  background-color: #283645;
 }
 .header-logo{
   min-height: 70px;
@@ -100,7 +105,14 @@
   }
 }
 .download__list{
-
+  margin:0;
+  margin-bottom:25px;
+  padding:0;
+  list-style:none;
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .download__item{
 
@@ -108,16 +120,18 @@
 .download__link{
   color:white;
 
-  text
-  span{
 
+  span{
+    display:none;
   }
   svg{
 
   }
 }
 .download__apple{
-
+  svg{
+    fill:white;
+  }
 }
 .download__android{
 
@@ -126,5 +140,7 @@
 
 }
 .download__description{
-
+  font:14px/24px open_sans, sans-serif;
+  text-align: center;
+  padding-bottom:35px;
 }
