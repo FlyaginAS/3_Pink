@@ -220,3 +220,87 @@
   .download__description{
   }
 }
+/*desktop**************************************************************************************/
+@media all and (min-width: 1200px) {
+  .page-header{
+    width:1200px;
+    min-height: 853px;
+    background:
+            bottom 0px right 0px no-repeat url("../resources/img/img-opt/index/desktop/iphone-desk.png"),
+            bottom 0px left no-repeat url("../resources/img/img-opt/index/desktop/back-desktop.jpg");
+    background-color: #283645;
+    margin-bottom:0px;
+  }
+  .header__wrap{
+    width:1200px;
+    padding-left:130px;
+    padding-right:130px;
+
+    display:flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+
+  }
+  .header-logo{
+    width:150px;
+    margin-right:auto;
+  }
+  .header-logo__img{
+
+  }
+  .menu{
+    width:625px;
+  }
+  .menu__toggle{
+    display:none;
+  }
+  .menu__toggle-svg{
+  }
+  .menu__list{
+    height:115px;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu__item{
+    border:none;
+  }
+  .menu__link{
+    text-transform: none;
+    font-weight: normal;
+  }
+  .download{
+    margin-left: 130px;
+  }
+  .download__title{
+  }
+  .download__itunes{
+  }
+  .download__list{
+  }
+  .download__item{
+
+  }
+  .download__link{
+
+
+    span{
+    }
+    svg{
+
+    }
+  }
+  .download__apple{
+    svg{
+    }
+  }
+  .download__android{
+
+  }
+  .download__widows{
+
+  }
+  .download__description{
+  }
+}

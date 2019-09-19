@@ -12,5 +12,43 @@
 }
 /*tablet***********************************************************************************/
 @media all and (min-width: 660px) {
+  .diagram{
+    margin-bottom:100px;
+    min-height: 280px;
+    display: grid;
+    grid-template-columns: repeat(4, 165px);
+    background: no-repeat top left 20px url("../resources/img/img-opt/index/tablet/timer-tabl.png");
+  }
+  .diagram__title{
+    width:180px;
+    margin:0;
+    grid-column: 3/5;
+    align-self: end;
+    font:30px/36px open_sans, sans-serif;
+    font-weight: bold;
+  }
+  .diagram__description{
+    grid-column: 3/5;
+    font:14px/24px open_sans, sans-serif;
+  }
+  .diagram__link{
+    grid-column: 3/5;
+    font:14px/24px open_sans, sans-serif;
+    color:#d22856;
+  }
+}
+/*desktop***********************************************************************************/
+@media all and (min-width: 1200px) {
+  .diagram{
+    display: none;
+  }
+  .diagram__title{
 
+  }
+  .diagram__description{
+
+  }
+  .diagram__link{
+
+  }
 }

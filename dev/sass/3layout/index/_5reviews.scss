@@ -71,5 +71,79 @@ padding-left:20px;
 }
 /*tablet***********************************************************************************/
 @media all and (min-width: 660px) {
+  .reviews{
+  }
+  .reviews__list{
 
+  }
+  .reviews__item{
+    blockquote{
+      order:1;
+      margin-bottom:50px;
+      font:18px/30px open_sans, sans-serif;
+    }
+    cite{
+      order:2;
+    }
+  }
+  .reviews__back{
+  }
+  .reviews__next{
+  }
+  .reviews__wrap{
+
+  }
+  .reviews__label{
+
+  }
+  .reviews__input{
+
+  }
+  .reviews__span{
+  }
+  .reviews__input:focus+span{
+  }
+  .reviews__input:checked+span{
+  }
+  .reviews__input:hover+span{
+  }
+  .reviews__input:active+span{
+  }
+}
+/*desktop***********************************************************************************/
+@media all and (min-width: 660px) {
+  .reviews{
+  }
+  .reviews__list{
+
+  }
+  .reviews__item{
+    blockquote{
+    }
+    cite{
+    }
+  }
+  .reviews__back{
+  }
+  .reviews__next{
+  }
+  .reviews__wrap{
+
+  }
+  .reviews__label{
+
+  }
+  .reviews__input{
+
+  }
+  .reviews__span{
+  }
+  .reviews__input:focus+span{
+  }
+  .reviews__input:checked+span{
+  }
+  .reviews__input:hover+span{
+  }
+  .reviews__input:active+span{
+  }
 }
